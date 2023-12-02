@@ -1,0 +1,51 @@
+body {/**/
+    /*ustwienia dla body. Kolor tła, czcionka itp*/
+    font-family: Arial, sans-serif;/*rodzaj czcionki*/
+    background-color: #6e99bd;/*kolor tła*/
+    display: flex;/*ustawia kontener jako flex*/
+    align-items: center;/*centruje obiekt poziomo*/
+    justify-content: center;/*centruje obiekt w pionie*/
+    height: 100vh;/*ustawia wysokośc na podaną wartość. W tym wypadku na 100% obszaru*/
+    margin: 0;/*bez marginesu*/
+}
+
+.login-container {
+     /*ustwienia dla kontenera logowanie */
+    background-color: rgb(35, 58, 57);/*kolor boxa logoweania*/
+    padding: 40px; /*wartość boxu logowania*/
+    border-radius: 20px; /*zaokrąglenie rogów*/
+    box-shadow: 10 10 0px rgba(1, 2, 8, 0.2);/*ustwienie cienia pod boxem*/
+}
+
+form {
+    display: flex;
+    flex-direction: column;/*ustawia pola w kolumnach*/
+}
+
+label {
+    margin-bottom: 10px;/*odstępy pomiędzy polami*/
+}
+
+input {
+    padding: 10px;/*wielkośc pola wpisywania*/
+    margin-bottom: 10px;/*wielkośc po polu input*/
+}
+
+button {/*definiuje parametry przycisku*/
+    background-color: #3498db;/*kolor przycisku*/
+    color: #fff;/*koilro czcionki*/
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;/*rodzaj kursora po najechaniu na przycisk*/
+}
+
+button:hover {
+    background-color: #0e4e79;/*kolor przycisku po najechaniu na niego kursorem*/
+}
+
+.error-message {/**/
+    color: #e74c3c;/*koloe czcionki alertu*/
+    margin-top: -10px;/**/
+    margin-bottom: 10px;
+}
